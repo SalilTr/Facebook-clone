@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+
+<body>
+    <!-- CREATION OF A NAVIGATION BAR -->
+    <nav>
+        <div class="nav-left">
+            <img src="./images/facebook-logo-png-38364 (1).png" alt="" width=80 height="25" class="logo" id="logo">
+            <ul>
+                <li><i class="bi bi-bell-fill"></i></li>
+                <li><i class="bi bi-inbox"></i></li>
+                <li><i class="bi bi-camera-reels"></i></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <i class="bi bi-search"></i>
+                <input type="text" placeholder="Search" id="search">
+            </div>  
+            <div class="user-icon online">
+               <img src="./images/logo.jpg" onclick="settings()" > 
+            </div>
+        </div>
+        <div class="nav-settings-menu ">
+            <div id="dark-btn">
+                <span class="dark-mode"></span>
+            </div>
+            <div class="settings-menu-inner ">
+                <div class="user-profile profile">
+                    <img src="./images/logo.jpg" height="45" width="45">
+                    <div class="user-name">
+                        <p>Salil Tripathi</p>
+                        <a href="./profile.html">Profile</a>
+                    </div>
+                   
+                    <i class="bi bi-three-dots-vertical"></i>
+                </div>
+               
+                <div class="user-profile profile">
+                    <img src="./images/logo.jpg" height="45" width="45">
+                    <div class="user-name">
+                        <p>Give feed back</p>
+                        <a href="#">Help us to improve new design</a>
+                    </div>
+                    <i class="bi bi-three-dots-vertical"></i>
+                </div>
+                <div class="setting-links">
+                    <div class="settings">
+                        <i class="bi bi-gear"></i>
+                        <a href="#">Settings & Privacy <span><i class="bi bi-box-arrow-right"></i></span></a>
+    
+                    </div>
+                    <div class="settings">
+                        <i class="bi bi-gear"></i>
+                        <a href="#">Settings & Privacy <span><i class="bi bi-box-arrow-right"></i></span></a>
+    
+                    </div>
+                    <div class="settings">
+                        <i class="bi bi-gear"></i>
+                        <a href="#">Settings & Privacy <span><i class="bi bi-box-arrow-right"></i></span></a>
+    
+                    </div>
+                    <div class="settings">
+                        <i class="bi bi-gear"></i>
+                        <a href="#">Settings & Privacy <span><i class="bi bi-box-arrow-right"></i></span></a>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVIGATION BAR IS ENDED -->
+    <!-- MAIN CONTENT IS BEGUN HERE -->
+    <div class="main-container">
+        <div class="main-left-side">
+            <div class="imp-links">
+                <a href="#"><i class="bi bi-person-lines-fill"></i>Latest News</a>
+                <a href="#"><i class="bi bi-person-lines-fill"></i>Friends</a>
+                <a href="#"><i class="bi bi-person-lines-fill"></i>Groups</a>
+                <a href="#"><i class="bi bi-person-lines-fill"></i>Market Place</a>
+                <a href="#"><i class="bi bi-person-lines-fill"></i>Watch</a>
+                <a href="#">See more</a>
+            </div>
+            <div class="shortcut-links">
+                <p>your shortcuts</p>
+                <div class="shortcut">
+                    <a href="#"><i class="bi bi-app"></i>web developer</a>
+                <a href="#"><i class="bi bi-android"></i>laravel developer</a>
+                <a href="#"><i class="bi bi-bar-chart-steps"></i>react developer</a>
+                <a href="#"><i class="bi bi-basket2"></i>js developer</a>
+                </div>
+            </div>
+        </div>
+<!-- /* BEGINNING OF MAIN CONTENT */ -->
+
+        <div class="main-middle-side">
+          <div class="story-gallery">
+            <div class="story story1">
+                <i class="bi bi-plus-circle-dotted"></i>
+                    <p>Post story</p>
+            </div>
+            <div class="story story2">
+                <img src="./images/logo.jpg" alt="">
+                    <!-- <p>Post story</p> -->
+            </div>
+            <div class="story story3">
+                <i class="bi bi-plus-circle-dotted"></i>
+                    <p>Post story</p>
+            </div>
+            <div class="story story4">
+                <i class="bi bi-plus-circle-dotted"></i>
+                    <p>Post story</p>
+            </div>
+            <div class="story story5">
+                <i class="bi bi-plus-circle-dotted"></i>
+                    <p>Post story</p>
+            </div>
+          </div>
+           <!-- Beginning of post section in middle one -->
+          <div class="post-container">
+            <!-- <div class="three-dots"><i class="bi bi-three-dots-vertical"></i></div> -->
+
+            <div class="user-profile">
+                <img src="./images/logo.jpg" height="45" width="45">
+                <div class="user-name">
+                    <p>Salil Tripathi</p>
+                    <small>Public<i class="bi bi-chevron-down"></i></small>
+                </div>
+                <i class="bi bi-three-dots-vertical"></i>
+            </div>
+           
+            <div class="post-input-container">
+                <textarea name="" id="" placeholder="whats on your mind" rows="3"></textarea>
+
+            </div>
+            <div class="add-post-links">
+                <a href="#"><i class="bi bi-play-circle-fill"></i>Live Video</a>
+                <a href="#"><i class="bi bi-images"></i>Upload image</a>
+                <a href="#"><i class="bi bi-activity"></i></i>Activity</a>
+            </div>
+          </div>
+          <div class="post-link-container">
+            <div class="user-profile">
+                <img src="./images/logo.jpg" height="45" width="45">
+                <div class="user-name">
+                    
+                    <p>Salil Tripathi</p>
+                    
+                    <span>June 24 2023,13:25 pm</span>
+                    
+                </div>
+                <i class="bi bi-three-dots-vertical"></i>
+            </div>
+            <p class="post-text">Subscribe <span>@easy tutorials</span> to watch more videos for being a software developer <a href="#"># Easy Tutorials</a><a href="#"> # Utube Channel</a></p>
+            
+            <div class="poster-img">
+                <img src="./images/logo.jpg" alt="">
+            </div>
+            <div class="post-row">
+                <div class="activity-icons">
+                    <span><i class="bi bi-star-fill"></i>588</span>
+                    <span><i class="bi bi-arrow-through-heart-fill">474</i></span>
+                    <span><i class="bi bi-share-fill"></i>85</span>
+                </div>
+                <div class="post-profile-icons">
+                    <img src="./images/logo.jpg" height="20"><span><i class="bi bi-chevron-bar-down"></i></span>
+                </div>
+            </div>
+            
+            
+          </div>
+          <div class="post-link-container">
+            <div class="user-profile">
+                <img src="./images/logo.jpg" height="45" width="45">
+                <div class="user-name">
+                    
+                    <p>Salil Tripathi</p>
+                    
+                    <span>June 24 2023,13:25 pm</span>
+                    
+                </div>
+                <i class="bi bi-three-dots-vertical"></i>
+            </div>
+            <p class="post-text">Subscribe <span>@easy tutorials</span> to watch more videos for being a software developer <a href="#"># Easy Tutorials</a><a href="#"> # Utube Channel</a></p>
+            
+            <div class="poster-img">
+                <img src="./images/logo.jpg" alt="">
+            </div>
+            <div class="post-row">
+                <div class="activity-icons">
+                    <span><i class="bi bi-star-fill"></i>588</span>
+                    <span><i class="bi bi-arrow-through-heart-fill">474</i></span>
+                    <span><i class="bi bi-share-fill"></i>85</span>
+                </div>
+                <div class="post-profile-icons">
+                    <img src="./images/logo.jpg" height="20"><span><i class="bi bi-chevron-bar-down"></i></span>
+                </div>
+            </div>
+            
+            
+          </div>
+          <div class="post-link-container">
+            <div class="user-profile">
+                <img src="./images/logo.jpg" height="45" width="45">
+                <div class="user-name">
+                    
+                    <p>Salil Tripathi</p>
+                    
+                    <span>June 24 2023,13:25 pm</span>
+                    
+                </div>
+                <i class="bi bi-three-dots-vertical"></i>
+            </div>
+            <p class="post-text">Subscribe <span>@easy tutorials</span> to watch more videos for being a software developer <a href="#"># Easy Tutorials</a><a href="#"> # Utube Channel</a></p>
+            
+            <div class="poster-img">
+                <img src="./images/logo.jpg" alt="">
+            </div>
+            <div class="post-row">
+                <div class="activity-icons">
+                    <span><i class="bi bi-star-fill"></i>588</span>
+                    <span><i class="bi bi-arrow-through-heart-fill">474</i></span>
+                    <span><i class="bi bi-share-fill"></i>85</span>
+                </div>
+                <div class="post-profile-icons">
+                    <img src="./images/logo.jpg" height="20"><span><i class="bi bi-chevron-bar-down"></i></span>
+                </div>
+            </div>
+            
+            
+          </div>
+          <div class="post-link-container">
+            <div class="user-profile">
+                <img src="./images/logo.jpg" height="45" width="45">
+                <div class="user-name">
+                    
+                    <p>Salil Tripathi</p>
+                    
+                    <span>June 24 2023,13:25 pm</span>
+                    
+                </div>
+                <i class="bi bi-three-dots-vertical"></i>
+            </div>
+            <p class="post-text">Subscribe <span>@easy tutorials</span> to watch more videos for being a software developer <a href="#"># Easy Tutorials</a><a href="#"> # Utube Channel</a></p>
+            
+            <div class="poster-img">
+                <img src="./images/logo.jpg" alt="">
+            </div>
+            <div class="post-row">
+                <div class="activity-icons">
+                    <span><i class="bi bi-star-fill"></i>588</span>
+                    <span><i class="bi bi-arrow-through-heart-fill">474</i></span>
+                    <span><i class="bi bi-share-fill"></i>85</span>
+                </div>
+                <div class="post-profile-icons">
+                    <img src="./images/logo.jpg" height="20"><span><i class="bi bi-chevron-bar-down"></i></span>
+                </div>
+            </div>
+            
+            
+          </div>
+          <button class="load" type="button">Load More</button>
+        </div>
+        
+
+        <div class="main-right-side">
+          <div class="rightside-title">
+            <h4>Events</h4>
+            <a href="">see all</a>
+          </div>
+
+          <div class="events">
+            <div class="left-event">
+                <h3>18</h3>
+                <span>March</span>
+
+            </div>
+            <div class="right-event">
+                <h4>Social media</h4>
+                <p><i class="bi bi-geo-alt"></i>Bussiness park</p>
+                <a href="#">More info</a>
+            </div>
+          </div>
+          
+          <div class="events">
+            <div class="left-event">
+                <h3>1</h3>
+                <span>April</span>
+
+            </div>
+            <div class="right-event">
+                <h4>Social media</h4>
+                <p><i class="bi bi-geo-alt"></i>Bussiness nation</p>
+                <a href="#">More info</a>
+            </div>
+          </div>
+          <div class="rightside-title">
+            <h4>Advertisement</h4>
+            <a href="">Close</a>
+          </div>
+          <img src="./images/logo.jpg" class="right-side-img">
+          <div class="rightside-title">
+            <h4>Conversation</h4>
+            <a href="">Hide chat</a>
+          </div>
+          <div class="online-lists">
+           <div class="online">
+            <a href="#"><img src="./images//logo.jpg" height="25" width="25"></a>
+           </div>
+           <p>salil Tripathi</p>
+          </div>
+          <div class="online-lists">
+           <div class="online">
+            <a href="#"><img src="./images//logo.jpg" height="25" width="25"></a>
+           </div>
+           <p>salil Tripathi</p>
+          </div>
+          <div class="online-lists">
+           <div class="online">
+            <a href="#"><img src="./images//logo.jpg" height="25" width="25"></a>
+           </div>
+           <p>salil Tripathi</p>
+          </div>
+          <div class="online-lists">
+           <div class="online">
+            <a href="#"><img src="./images//logo.jpg" height="25" width="25"></a>
+           </div>
+           <p>salil Tripathi</p>
+          </div>
+        </div>
+
+    </div>
+    </div>
+
+    </div>
+    <div class="footer">
+        <p>Created with love by salil-copyright 2023</p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
